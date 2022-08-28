@@ -1,0 +1,18 @@
+{
+    "grid_config": {
+        "grid_size": 40,
+        "grid_resolution": 1,
+        "one_hot_dict": {
+            "H": [1, 0, 0, 0, 0],
+            "C": [0, 1, 0, 0, 0],
+            "N": [0, 0, 1, 0, 0],
+            "O": [0, 0, 0, 1, 0],
+            "S": [0, 0, 0, 0, 1]
+    }
+        },
+
+    "interaction_dist": {
+        "ca_distance": 10,
+        "atom_distance": 5
+    }
+}

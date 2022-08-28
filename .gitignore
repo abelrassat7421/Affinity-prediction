@@ -2,7 +2,7 @@
 .idea
 
 ### bytecode cache files ###
-__pycache__/
+source/__pycache__/
 
 
 ### data ###

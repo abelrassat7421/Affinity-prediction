@@ -1,4 +1,4 @@
-# Affinity-prediction: Pridicting the affinity of protein-protein interactions from pdb files of protein complexes.
+# Affinity-prediction: Predicting the affinity of protein-protein interactions from pdb files of protein complexes.
 
 ---
 

@@ -1,0 +1,10 @@
+### User specific information ###
+.idea
+
+### bytecode cache files ###
+__pycache__/
+
+
+### data ###
+data/
+

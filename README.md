@@ -1,17 +1,17 @@
-# Affinity-prediction: Prediction affinity of protein-protein interactions from pdb files.
+# Affinity-prediction: Pridicting the affinity of protein-protein interactions from pdb files of protein complexes.
 
 ---
 
 ## Overview 
 
 - ### 🧊 voxel_representation : 
-  Library that allow to process the pdb files, determine the interacting atoms of a protein-protein
-  interface and voxelize these selected atoms in a cube whose center is  the center of mass of the 
+  Library that allows to process the pdb files, determine the interacting atoms of a protein-protein
+  interface and voxelize these selected atoms in a cube whose center is the center of mass of these 
   atoms. In this process the **biopython** library is leveraged with its SMCRA (Structure/Chain/Residue/Atom) 
   architecture. A dataset is finally built with **pyTorch**. 
    
 - ### Neural_net :
-  We define the CNN and functions for training and testing the model. Due to the unavailability of most of the 
+  We define a CNN and functions for training and testing the model. Due to the unavailability of most of the 
   database at the moment of finishing this project, the DataLoader class was not used but is recommended once
   the clusters are no longer in maintenance. 
   
@@ -39,5 +39,3 @@
   1. Using the distance between the CA of two residues from two different chains as a cutoff distance (cf. json file). 
      *This method is the one implemented at the moment.* 
   2. Using the distance between atoms of two different chains as a cutoff distance (cf. json file).
-
-
